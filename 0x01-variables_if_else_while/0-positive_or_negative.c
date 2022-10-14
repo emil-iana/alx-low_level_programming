@@ -4,11 +4,12 @@
 
 #include <stdio.h>
 
-/* more headers goes there */
-
-/*main is the start of function*/
-
-/* betty style doc for function main goes there */
+/**
+ *main - entry point
+ *
+ *Return:always returns 0
+ *
+ */
 
 int main(void)
 
