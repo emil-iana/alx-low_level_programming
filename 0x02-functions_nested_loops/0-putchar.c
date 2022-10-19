@@ -1,22 +1,21 @@
-#include "main.h"
-#include <stdio.h>
+#include"main.h"
+
 /**
  * main - Entry point
- * prints "putchar" followed by a new line
- * Return: 0
- */
+ *
+ * Description: prints _putchar using putchar prototype
+ *
+ * Return: Always 0 (Success)
+*/
 
 int main(void)
 {
-	char function[] = "putchar";
-	int i = 0;
+	char str[] = "_putchar";
+	int ch;
 
-	while (function[i] != '\0')
-	{
-		putchar(function[i]);
-		i++;
-	}
-	putchar('\n');
+	for (ch = 0; ch < 8; ++ch)
+		_putchar(str[ch]);
+	_putchar('\n');
 
 	return (0);
 }
